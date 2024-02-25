@@ -1,0 +1,29 @@
+.header-strip {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: #fff;
+    margin-top: -50px;
+}
+
+.header-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+}
+
+.header-cont img {
+    height: 100%;
+}
+
+.header-cont button {
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    margin-top: 5px;
+}
+
+.btnimg {
+    border: #747272;
+}

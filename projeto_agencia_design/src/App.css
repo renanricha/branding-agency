@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppings', sans-serif;
+}
+
+.App {
+  width: 1020px;
+  margin: 0 auto;
+}

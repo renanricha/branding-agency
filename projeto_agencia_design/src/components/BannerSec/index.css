@@ -1,0 +1,10 @@
+.banner-sec {
+    margin-top: 50px;
+}
+
+.banner-img {
+    width: 50%;
+    height: 100%;
+    background-image: url('../../assets/banner.png');
+    
+}
