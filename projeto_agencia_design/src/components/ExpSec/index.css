@@ -1,0 +1,36 @@
+.exp-sec {
+    background-color: #f6f8fc;
+    padding: 40px 10px;
+}
+
+.text-cont-exp {
+    text-align: center;
+    max-width: 512px;
+    margin: 40px auto;
+}
+
+.text-cont-exp h2 {
+    color: #32333c;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-cont-exp h2::after {
+    content:'';
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+    height: 2px;
+    background-color: yellow;    
+}
+
+.text-cont-exp p {
+    color: #8a8fa3;
+}
+
+.cards {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+}

@@ -4,7 +4,9 @@ import './index.css'
 export default function BannerSec() {
     return (
       <div className="banner-sec">
-        <div className='banner-img'></div>
+        <div className='banner-img'>
+          <div className='box-banner-img'></div>
+        </div>
         <div className='banner-text'>
             <div className='text-cont-banner'>
                 <p>BRANDING / UI / UX / TECNOLOGIA</p>

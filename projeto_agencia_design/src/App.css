@@ -5,7 +5,7 @@
   font-family: 'Poppings', sans-serif;
 }
 
-.App {
-  width: 1020px;
+.limit-sec {
+  max-width: 1024px;
   margin: 0 auto;
 }

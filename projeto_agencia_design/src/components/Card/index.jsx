@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 
 export default function Card({ numeroCard }) {
     
@@ -20,7 +21,7 @@ export default function Card({ numeroCard }) {
             par2 = 'E Corp.'
             par3 = 'Criação de modelos estratégicos de conversão identificando o cliente e mapeando toda a sua jornada de compra'
         break
-        case 2:
+        case 3:
             par1 = 'FEVEREIRO 2019 - 2021'
             subT = 'Digital Consulting'
             par2 = 'Arasaka Inc.'
