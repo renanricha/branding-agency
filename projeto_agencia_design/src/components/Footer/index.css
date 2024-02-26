@@ -4,10 +4,16 @@
     max-width: 512px;
     text-align: center;
     margin: 40px auto;
+    padding: 0 20px;
 }
 
-.footer img {
+.img-social {
     width: 45px;
+    margin: 0 auto;
+    margin: 0 10px;
+}
+
+.img-logo {
     margin: 0 auto;
 }
 
@@ -19,9 +25,33 @@
 .social {
     display: flex;
     height: 45px;
+    max-width: 512px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .footer span {
+    color: rgb(220, 220, 9);
+    font-weight: bold;
+}
+
+/*Dark Theme*/
+.footer-dk {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #1f1b1b;
+}
+
+.footer-dk p {
+    color: #8a8fa3;
+    margin: 20px auto;
+}
+
+.footer-dk span {
     color: rgb(220, 220, 9);
     font-weight: bold;
 }

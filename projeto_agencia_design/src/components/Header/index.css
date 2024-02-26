@@ -31,3 +31,38 @@
     border: #747272 solid 2px;
     border-radius: 25px;
 }
+
+/*Dark Theme*/
+.header-strip-dk {
+    width: 100%;
+    padding: 0px 20px;
+    position: fixed;
+    height: 50px;
+    background-color: #1f1b1b;
+    margin-top: -50px;
+}
+
+.header-cont-dk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-cont-dk img {
+    height: 80%;
+    margin-bottom: 20%;
+}
+
+.header-cont-dk button {
+    height: 50px;
+    background-color: #1f1b1b;
+    border: none;
+    margin-bottom: 20%;
+}
+
+.btnimg-dk {
+    margin-top: 10%;
+    border: #747272 solid 2px;
+    border-radius: 25px;
+}

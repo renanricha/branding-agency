@@ -5,11 +5,11 @@ import './index.css'
 
 export default function Header() {
     return(
-        <div className="header-strip">
-            <div className='header-cont'>
+        <div className="header-strip-dk">
+            <div className='header-cont-dk'>
                 <img src={Logo} alt='Logo M' />
                 <button>
-                    <img className="btnimg" src={Moon} alt='Dark Mode' />
+                    <img className="btnimg-dk" src={Moon} alt='Dark Mode' />
                 </button>
             </div>
         </div>

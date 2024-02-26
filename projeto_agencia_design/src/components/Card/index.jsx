@@ -30,8 +30,8 @@ export default function Card({ numeroCard }) {
     }
 
     return (
-      <div className="card">
-        <div className='text-cont-card'>
+      <div className="card-dk">
+        <div className='text-cont-card-dk'>
             <p>{ par1 }</p>
             <h2>{ subT }</h2>
             <p>{ par2 }</p>

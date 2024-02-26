@@ -4,14 +4,14 @@ import './index.css'
 
 export default function ExpSec() {
     return (
-      <section className="exp-sec">
-        <div className={'text-cont-exp'}>
+      <section className="exp-sec-dk">
+        <div className={'text-cont-exp-dk'}>
             <h2>Experiências De Trabalho</h2>
             <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
           Sites e Marketing Digital, nos empenhamos diariamente para entregar
           resultados que tragam impacto aos nossos clientes.</p>
         </div>
-        <div className='cards'>
+        <div className='cards-dk'>
           <Card numeroCard={ 1 } />
           <Card numeroCard={ 2 } />
           <Card numeroCard={ 3 } />

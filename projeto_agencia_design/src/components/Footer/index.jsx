@@ -8,15 +8,15 @@ import './index.css'
 
 export default function Footer() {
     return(
-        <div className="footer">
+        <div className="footer-dk">
             <img className="img-logo" src={Logo} alt='Logo M' />
             <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>
             <div className="social">
-                <img src= {FB} />
-                <img src= {TW} />
-                <img src= {TW} />
-                <img src= {IN} />
-                <img src= {GP} />
+                <img className="img-social" src= {FB} />
+                <img className="img-social" src= {TW} />
+                <img className="img-social" src= {TW} />
+                <img className="img-social" src= {IN} />
+                <img className="img-social" src= {GP} />
             </div>
             <p>Copyright 2022 © <span>Renan</span></p>
         </div>
